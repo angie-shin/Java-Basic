@@ -59,13 +59,11 @@ public class SungJukV1b {
 		// 출력
 		// 이름: ??, 국어:??, 영어:??,수학:??
 		// 총점: ??, 평균:??, 학점:??
-		System.out.printf("이름은? %s 국어는? %d 영어는? %d 수학은? %d\n", name, kor, eng, math);
-		System.out.printf("총점: %d 평균:%f, 학점:%c", tot, avg, grd);
-		// 다른방식
+
 		String fmt = "이름은? %s 국어는? %d 영어는? %d 수학은? %d\n";
 		System.out.printf(fmt, name, kor, eng, math);
-		String fmt = "총점: %d 평균:%f, 학점:%c\n";
-		System.out.printf(fmt, tot, avg, grd);
+		String kmt = "총점: %d 평균:%f, 학점:%c\n";
+		System.out.printf(kmt, tot, avg, grd);
 	}
 
 }
