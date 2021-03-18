@@ -69,6 +69,9 @@ public class EX02 {
 		System.out.print("Print both of us" + "Me too");
 		// System.out.print(); 전달값이 없으면 실행 불가, 출력해 "무엇을" 이라고 이야기 해야하는 데
 		// 출력할 대상이 없음
+// System.out.println; 가로가 없음
+		// System.out.println("How about this one "++ '?' +Huh);
+		// ++ 연산자를 string에 사용할 수 없음
 
 	}
 }
