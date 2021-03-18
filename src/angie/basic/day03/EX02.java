@@ -31,8 +31,9 @@ public class EX02 {
 		System.out.println("true || (3 < 5 && 6 >= 2) =" + result1);
 		String result2;
 
-		result = (7 % 4) + 3 - (2 / 6) * 'Z';
+		result = (7 % 4) + 3 - ((double) 2 / (double) 6) * 'Z';
 		System.out.println("7 % 4 + 3 - 2 / 6 * 'Z' =" + result);
+		// 정수 나누기 정수는 double이 되어야 뒤에 계산 가능 아니면 2/6은 0이 됨
 		// 자동형변환하면서 큰따옴표 문자열은 변환불가
 		// 단일문자는 수식에 사용하면 자동으로 숫자형으로 바뀜 (char 작은따옴표만 가능)
 		// ASCII code로 Z는 90, D: 68, M:77 이됨, O:48, A:65, a:97
@@ -69,7 +70,7 @@ public class EX02 {
 		System.out.print("Print both of us" + "Me too");
 		// System.out.print(); 전달값이 없으면 실행 불가, 출력해 "무엇을" 이라고 이야기 해야하는 데
 		// 출력할 대상이 없음
-// System.out.println; 가로가 없음
+		// System.out.println; 가로가 없음
 		// System.out.println("How about this one "++ '?' +Huh);
 		// ++ 연산자를 string에 사용할 수 없음
 
