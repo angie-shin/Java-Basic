@@ -78,6 +78,9 @@ public class Loop {
 		}
 		System.out.println("1~100 사이 합 :" + sum);
 
+		// ex)1~100사이에 종합 구해서 출력 v2
+		// 가우스 덧셈공식 이용
+
 	}
 
 }
